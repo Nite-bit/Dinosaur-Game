@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dino Game</title>
+    <!-- Importing a pixel-style font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <!-- The canvas element is where all the game graphics are drawn -->
+        <canvas id="gameCanvas"></canvas>
+        <!-- This div will show the current score -->
+        <div id="game-info">SCORE: <span id="score">0</span></div>
+        <!-- This div will appear when the game is over -->
+        <div id="game-over-message">
+            <h2>GAME OVER</h2>
+            <p>Press Any Key to Restart</p>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
